@@ -1,0 +1,121 @@
+/* =====================
+
+Template Name: 
+Template URL: 
+Description: 
+Author: Nil Alfi
+Author URL: 
+Version: 1.1.3
+
+======================= */
+
+
+/* =====================
+----------css index------------
+01: Home Css
+02: Category Css
+
+======================= */
+
+
+/* ==============Google_Fonts=============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+/* ============Template Default Css============== */
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+a:focus,
+select:focus,
+input:focus{
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+}
+.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+::placeholder{
+    color: gray;
+}
+
+[type="color"]:focus,
+[type="date"]:focus,
+[type="datetime"]:focus,
+[type="datetime-local"]:focus,
+[type="email"]:focus,
+[type="month"]:focus,
+[type="number"]:focus,
+[type="password"]:focus,
+[type="search"]:focus,
+[type="tel"]:focus,
+[type="text"]:focus,
+[type="time"]:focus,
+[type="url"]:focus,
+[type="link"]:focus,
+input:not([type]):focus,
+textarea:focus{
+    border-color: #ddd;
+    -webkit-box-shadow: none !important;
+    box-shadow: none;
+}
+
+button:focus{
+    outline: none !important;
+    border: none !important;
+
+}
+
+
+/* ============Author Custom Css============= */
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 250px;
+    height: 250px;
+  }
